@@ -1,0 +1,100 @@
+.container-ops-one {
+    background: url('/images/img-ops2.png') center center/cover no-repeat;
+    height: 50vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    object-fit: contain;
+}
+
+.container-ops-one .bg-white {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #D9D9D9 -2.01%, rgba(217, 217, 217, 0) 97.99%);
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-ops-one .bg-white .text {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.container-ops-two {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5rem;
+}
+
+.container-ops-three {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(270deg, #260A87 37.33%, rgba(38, 10, 135, 0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+
+.container-ops-three-img-bg {
+    background: url('/images/image-kapal.png') center/cover no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.container-ops-three-content {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container-ops-three-content > div > h1 {
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-ops-three-content p {
+    font-size: 17px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.container-ops-four {
+    width: 100%;
+    height: fit-content;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-ops-four > h1 {
+    font-size: 40px;
+    color: #260A87;
+}
+
+.img-ops {
+    background: url('/images/img-report.png') center/contain no-repeat;
+    width: 100%;
+    height: 945px;
+}
+
+.loc-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+}
+
+.loc-contact > h2 {
+    font-size: 30px;
+    color: #260A87;
+}

@@ -1,0 +1,39 @@
+.container-career-one-img {
+    background: url('/images/img-career.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-career-one-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #FFFFFF 33.32%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: end;
+}
+
+.container-career-one-content {
+    width: 50%;
+    height: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-career-one-content > h1 {
+    font-size: 40px;
+    color: #260A87;
+}
+
+.container-career-one-btn {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+    background:#260A87;
+    color: #FFFFFF;
+}

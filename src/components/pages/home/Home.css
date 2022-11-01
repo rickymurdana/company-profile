@@ -1,0 +1,283 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+
+  .slide-container {
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+  }
+
+  .fade-container {
+    height: 80vh;
+  }
+
+  .img-container {
+  }
+
+  .indicator {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .indicator.active {
+    color: #fff;
+    background: #666;
+  }
+  
+  .hero-container {
+    background: url('/images/image-kapal.png') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); */
+    object-fit: contain;
+  }
+
+  .container-bg {
+    /* width: 100%; */
+    height: 100%;
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%)
+  }
+
+  .container-two {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .container-two-center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-two-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .container-two-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .container-two-text > h1 {
+    font-size: 40px;
+    color: #260A87;
+  }
+
+  .container-two-text > p {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .img-1 {
+    background: url('/images/img-kapal2.png') center center/cover no-repeat;
+    /* position: absolute; */
+    width: 300px;
+    height: 178px;
+  }
+
+  .img-2 {
+    background: url('/images/img-kapal3.png') center center/cover no-repeat;
+    /* position: absolute; */
+    width: 300px;
+    height: 178px;
+    margin: -3rem;
+  }
+
+  .container-two-text .btn {
+    width: 35%;
+    margin-top: 32px;
+    background-color: #260A87;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .container-three {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(90deg, #260A87 37.33%, rgba(38, 10, 135, 0) 100%, rgba(255, 255, 255, 0) 100%)
+  }
+
+  .container-three-img-bg {
+    background: url('/images/img-kapal4.png') center center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-three-content {
+    display: flex;
+    padding: 75px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-three-content .btn {
+    /* width: 50%; */
+    margin-top: 32px;
+    background-color: #260A87;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .container-three-content > h1 {
+    font-size: 70px;
+    color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .container-three-content-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-three-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    color: #fff;
+  }
+
+  .img-world {
+    background: url('/images/worldwide.png') center center/cover no-repeat;
+    width: 88px;
+    height: 110px;
+    color: #fff;
+  }
+
+  .img-teamwork {
+    background: url('/images/teamwork.png') center center/cover no-repeat;
+    width: 88px;
+    height: 110px;
+    color: #fff;
+  }
+
+  .img-excellence {
+    background: url('/images/excellence.png') center center/cover no-repeat;
+    width: 88px;
+    height: 110px;
+    color: #fff;
+  }
+
+  .container-four {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container-four-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .container-four-text {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .container-four-btn {
+    background: #260A87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .hero-text {
+    color: #260A87;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 6rem;
+  }
+
+  .hero-text > h1 {
+    font-size: 40px;
+  }
+
+  .hero-text > p {
+    margin-top: 8px;
+    font-size: 17px;
+    width: 75%;
+  }
+  
+  .hero-btns {
+    margin-top: 32px;
+    background-color: #260A87;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+
+  .btn-link {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  

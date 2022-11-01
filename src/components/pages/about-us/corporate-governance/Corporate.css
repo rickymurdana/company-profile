@@ -1,0 +1,184 @@
+.container-corporate-one {
+    background: url('/images/image-kapal.png') center center/cover no-repeat;
+    height: 75vh;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+}
+
+.container-corporate-two {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+.container-corporate-two > h1 {
+    font-size: 40px;
+    color: #260A87;
+}
+
+.container-corporate-two-content {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-corporate-two {
+    background: url('/images/image-kapal.png') center center/cover no-repeat;
+    width: 50%;
+    height: 300px;
+}
+
+.container-corporate-two-text {
+    padding: 10px;
+    width: 50%;
+}
+
+.container-corporate-three {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+.container-corporate-three > h1 {
+    font-size: 40px;
+    color: #260A87;
+}
+
+.container-corporate-three-content {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-corporate-three {
+    background: url('/images/image-kapal.png') center center/cover no-repeat;
+    width: 50%;
+    height: 300px;
+}
+
+.container-corporate-three-text {
+    padding: 10px;
+    width: 50%;
+}
+
+.container-corporate-four {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+.container-corporate-four > h1 {
+    font-size: 40px;
+    color: #260A87;
+}
+
+.container-corporate-four-content {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container-corporate-four-box {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-corporate-four-box > h2 {
+    font-size: 30px;
+    color: #00C04C;
+}
+
+.container-corporate-five {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem; 
+}
+
+.container-corporate-five > h1 {
+    font-size: 40px;
+    color: #260A87;
+}
+
+.img-corporate-five {
+    background: url('/images/image-kapal.png') center center/cover no-repeat;
+    width: 75%;
+    height: 300px;
+}
+
+.container-corporate-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.container-corporate-five-box {
+    width: 190px;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px
+}
+
+.container-corporate-six {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+.container-corporate-six > h1 {
+    font-size: 40px;
+    color: #260A87;
+}
+
+.container-corporate-six-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-corporate-six-box {
+    width: 4rem;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img-box {
+    background: url('/images/logo.png') center/contain no-repeat;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #260A87;
+}
