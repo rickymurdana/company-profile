@@ -1,9 +1,9 @@
 .container-sustain-one {
-    background: url('/images/img-sustain.jpg') center center/cover no-repeat;
-    height: 100vh;
+    background: url('/images/P7180235.jpg') center/cover no-repeat;
+    background-position: 100% 100%;
+    height: 80vh;
     width: 100%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-    object-fit: contain;
 }
 
 .container-sustain-one-content {
@@ -51,8 +51,31 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin: auto;
     justify-content: center;
     gap: 2rem;
+}
+
+.img-sus4 {
+    background: url('/images/July-2022.jpg') center/cover no-repeat;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.img-sus5 {
+    background: url('/images/October-2022.jpg') center/cover no-repeat;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .img-sus1 {

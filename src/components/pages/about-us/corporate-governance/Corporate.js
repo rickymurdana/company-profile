@@ -2,6 +2,12 @@ import React from "react";
 import './Corporate.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
+import COBCE from "../../../../file/ethic-compliance/Updated-COBCE.pdf";
+import BAB from "../../../../file/ethic-compliance/BAB-ABC-Policy-Aug-2021.pdf";
+import COBCEFD from "../../../../file/ethic-compliance/Directors-Code_Business_Conduct_and_Ethics.pdf";
+import FIT from "../../../../file/ethic-compliance/Fit-and-Proper-Policy.pdf";
+import GIFT from "../../../../file/ethic-compliance/Gifts-and-Hospitality.pdf";
+import SPEAKUP from "../../../../file/ethic-compliance/Speak-Up-Policy-Nov-2021.pdf";
 
 function ContainerOne() {
     return (
@@ -74,10 +80,12 @@ function ContainerFour() {
 
 function ContainerFive() {
     const arr = [
-        { title: 'Code of Business Conduct & Ethics' },
-        { title: 'Code of Business Conduct & Ethics' },
-        { title: 'Code of Business Conduct & Ethics' },
-        { title: 'Code of Business Conduct & Ethics' },
+        { title: 'Code of Business Conduct & Ethics Policy', file: COBCE },
+        { title: 'Bumi Armada Berhad Anti-Bribery and Corruption Policy', file: BAB },
+        { title: 'Code of Business Conduct & Ethics For Directors Poliycy', file: COBCEFD },
+        { title: 'Fit and Proper Policy', file: FIT },
+        { title: 'Gifts and Hospitality', file: GIFT },
+        { title: 'Speak Up Policy', file: SPEAKUP },
     ]
     return (
         <div className="container-corporate-five">
@@ -87,9 +95,19 @@ function ContainerFive() {
             <div className="container-corporate-content">
                 {arr.map((el, id) => {
                     return (
-                    <div key={id} className="container-corporate-five-box">
-                        <FontAwesomeIcon icon={faBookmark} size="5x" />
-                        <h3>{el.title}</h3>
+                    <div key={id} className="container-corporate-five-box" onClick={ () => window.open(el.file)}>
+                        <div style={{
+                            height: '100%',
+                            cursor: 'pointer'
+                        }}>
+                            <FontAwesomeIcon icon={faBookmark} size="5x" />
+                        </div>
+                        <div style={{
+                            height: '100%',
+                            cursor: 'pointer'
+                        }}>
+                            <h3>{el.title}</h3>
+                        </div>
                     </div>
                     )
                 })}
@@ -176,9 +194,9 @@ function CorporatePage() {
             <ContainerThree />
             <ContainerFour />
             <ContainerFive />
-            <ContainerSix />
+            {/* <ContainerSix />
             <ContainerSeven />
-            <ContainerEigth />
+            <ContainerEigth /> */}
         </>
     )
 }

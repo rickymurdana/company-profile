@@ -7,7 +7,7 @@ function ContainerOne() {
             <div className="container-bg">
                 <div className='container-sustain-one-content'>
                     <h1>ARMADA GEMA NUSANTARA</h1>
-                    <p>At Bumi Armada, we strive to meet, and where possible exceed, all our client’s expectations and values within the everchanging Oil, Gas and Energy industry. We engage with the correct technologies to further grow and keep sustainability in balance.</p>
+                    <p>PT. Armada Gema Nusantara, we strive to meet, and where possible exceed, all our client’s expectations and values within the everchanging Oil, Gas and Energy industry. We engage with the correct technologies to further grow and keep sustainability in balance.</p>
                 </div> 
             </div>
         </div>
@@ -109,14 +109,43 @@ function ContainerFour() {
     )
 }
 
+function ContainerSus() {
+    return (
+        <div className="container-sustain-two">
+            <div className="text-title-purple">REDUCE REUSE RECYCLE (3R) INTITATIVE</div>
+            <div className="container-sustain-two-text">
+                <p>Responding to the environmental initiative from the Municipality of Surabaya where plastic bottle waste can be exchanged with bus tickets (Suroboyo Bus), since mid-2022 the staffs of PT Armada Gema Nusantara (AGN) Branch Office in Surabaya have been regularly collecting their plastic waste bottle to be exchanged with bus tickets. The tickets are used by the staffs who commute using public transportation. The initiative is the company’s contribution to the waste Reduce Reuse Recycle (3R) program where we believe that recycling of waste can eventually contribute to minimizing greenhouse gas emission.</p>
+            </div>
+            <div className="container-sustain-two-content">
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center'
+                }}>
+                    <div className="img-sus4"></div>
+                    <p>July 2022</p>
+                </div>
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center'
+                }}>
+                    <div className="img-sus5"></div>
+                    <p>October 2022</p>
+                </div>
+            </div>
+        </div>
+    )
+}
 
 function SustainabilityPage() {
     return (
         <>
             <ContainerOne />
-            <ContainerTwo />
+            <ContainerSus />
+            {/* <ContainerTwo />
             <ContainerThree />
-            <ContainerFour />
+            <ContainerFour /> */}
         </>
     )
 }

@@ -6,11 +6,17 @@ import { Fade } from 'react-slideshow-image';
 
 function ContainerOne() {
   const arr = [
-    { img: '/images/img-kapal5.jpg',
-      title: 'AAA'
+    { img: '/images/P7180242.jpg',
+      title: 'Kapal 3'
     },
-    { img: '/images/img-kapal6.jpg',
-      title: 'BBB'
+    { img: '/images/P7100055.jpg',
+      title: 'Kapal 4'
+    },
+    { img: '/images/P7180244.jpg',
+      title: 'Kapal 1'
+    },
+    { img: '/images/P7100098.jpg',
+      title: 'Kapal 2'
     },
   ];
   const properties = {
@@ -24,7 +30,7 @@ function ContainerOne() {
             return (
               <div className='fade-container' key={idx}>
                 <div style={{
-                  background: `url(${el.img}) center center/cover no-repeat`,
+                  background: `url(${el.img}) center/cover no-repeat`,
                   width: '100%',
                   height: '100%'
                 }}>
@@ -94,8 +100,8 @@ function ContainerThree() {
     )
   }
   return (
-    <div className='container-three'>
-      <div className='container-three-img-bg'>
+    <div className='container-three-img-bg'>
+      <div className='container-three'>
         <div className='container-three-content'>
             <h1> OUR CORE VALUES</h1>
             <div className='container-three-content-2'>
@@ -120,7 +126,7 @@ function ContainerThree() {
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <div className='btn'>
                   <Link to='/contact' className='btn-link'>
-                    Speak Up- Report Wrongdoings
+                    Speak Up-Report Wrongdoings
                   </Link>
                 </div>
               </div>

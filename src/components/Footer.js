@@ -9,7 +9,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-text'>
-            © 2022 Bumi Armada Berhad (Company No. 199501041194 (370398-X)). All Rights Reserved.
+            © 2022 Armada Gema Nusantara. All Rights Reserved.
           </div>
           <div class='social-icons'>
             <div>

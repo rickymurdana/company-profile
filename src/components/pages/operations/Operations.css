@@ -1,6 +1,7 @@
 .container-ops-one {
-    background: url('/images/img-ops2.png') center center/cover no-repeat;
-    height: 50vh;
+    background: url('/images/FPSO-WHP.jpg') center/cover;
+    background-position: 100% 100%;
+    height: 80vh;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     width: 100%;
     object-fit: contain;
@@ -81,8 +82,14 @@
     color: #260A87;
 }
 
-.img-ops {
-    background: url('/images/img-report.png') center/contain no-repeat;
+.img-ops1 {
+    background: url('/images/FPO1.png') center/contain no-repeat;
+    width: 100%;
+    height: 945px;
+}
+
+.img-ops2 {
+    background: url('/images/FPO2.png') center/contain no-repeat;
     width: 100%;
     height: 945px;
 }

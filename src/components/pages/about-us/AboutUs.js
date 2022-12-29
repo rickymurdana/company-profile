@@ -9,7 +9,7 @@ function ContainerOne() {
         <div className='container-bg'>
             <div className='container-aboutus-one-content'>
             <h1>ARMADA GEMA NUSANTARA</h1>
-            <p>At Bumi Armada, we strive to meet, and where possible exceed, all our client’s expectations and values within the everchanging Oil, Gas and Energy industry. We engage with the correct technologies to further grow and keep sustainability in balance.</p>
+            <p>At PT. Armada Gema Nusantara, we strive to meet, and where possible exceed, all our client’s expectations and values within the everchanging Oil, Gas and Energy industry. We engage with the correct technologies to further grow and keep sustainability in balance.</p>
             </div>
         </div>
       </div>
@@ -21,9 +21,8 @@ function ContainerTwo() {
       <div className='container-aboutus-two'>
         <div className='container-aboutus-two-content'>
             <h1>CORPORATE <span style={{color: '#00C04C'}}>PROFILE</span></h1>
-            <p>At Bumi Armada, we strive to meet, and where possible exceed, all our client’s expectations and values within the everchanging Oil, Gas and Energy industry. We engage with the correct technologies to further grow and keep sustainability in balance.</p>
-            <p> We are a Malaysia-based international offshore energy facilities and services provider with experience in over 10 countries spread across three continents – Asia, Europe, and Africa. The culture diversity of over 929 people from over 27 nationalities empowers diverse solutions solving within our global team to safely deliver our various assets – Floating Production Storage Offloading (“FPSO”), Liquified Natural Gas (“LNG”), Floating Storage Unit (“FSU”), Offshore Support Vessel (“OSV”) and Subsea Construction (“SC”) assets.</p>
-            <p>We offer a range of capabilities including field development support, production facilities, installation & operations, pipe-laying, hook-up & commissioning. We are committed to bring innovative solutions to provide high quality and reliable facilities and services while incorporating leading and proven technologies for a sustainable tomorrow.</p>
+            <p>At PT. Armada Gema Nusantara, we strive to meet, and where possible exceed, all our client’s expectations and values within the everchanging Oil, Gas and Energy industry. We engage with the correct technologies to further grow and keep sustainability in balance.</p>
+            <p>PT. ARMADA GEMA NUSANTARA (PT. AGN) is a JV Company with Bumi Armada, a Malaysian based international company.  We are operating FPSO (Floating Production, Storage and Offloading) “Karapan Armada Sterling III” to support gas development located in Madura Strait, Indonesia.</p>
         </div>
       </div>
     )
@@ -36,9 +35,10 @@ function ContainerThree() {
                 <div className='container-aboutus-three-content'>
                     <h1>OUR BEGINNING</h1>
                     <div style={{ display: 'flex', flexDirection: 'column', padding: 40 }}>
-                        <p>In December 1995, the company was incorporated as a public limited company (under the Companies Act, 1965). The Bumi Armada Group includes diversified subsidiaries as well as joint venture companies.</p>
+                        <p>Established since 2011, we are committed to bring innovative solutions to provide high quality and reliable facilities and services while incorporating leading and proven technologies for a sustainable tomorrow.</p>
+                        {/* <p>In December 1995, the company was incorporated as a public limited company (under the Companies Act, 1965). The Bumi Armada Group includes diversified subsidiaries as well as joint venture companies.</p>
                         <p>Since then, our businesses have evolved from managing smaller tonnage vessels in the 1970s to being able to design, build and operate FPSOs with increasing complexity, functional capability, and size.</p>
-                        <p>Drawing on our decades of experience, we have developed a positive reputation for our project management capabilities. We deliver innovative solutions and quality facilities that incorporate leading and proven technologies to cater for the needs of our clients.</p>
+                        <p>Drawing on our decades of experience, we have developed a positive reputation for our project management capabilities. We deliver innovative solutions and quality facilities that incorporate leading and proven technologies to cater for the needs of our clients.</p> */}
                     </div>
                 </div>
             </div>
