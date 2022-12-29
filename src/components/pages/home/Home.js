@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../../../App.css';
 import './Home.css';
 import { Fade } from 'react-slideshow-image';
+import SPEAKUP from "../../../file/ethic-compliance/Speak-Up-Policy-Nov-2021.pdf";
 
 function ContainerOne() {
   const arr = [
@@ -125,9 +126,9 @@ function ContainerThree() {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <div className='btn'>
-                  <Link to='/contact' className='btn-link'>
+                  <div className='btn-link' onClick={() => window.open(SPEAKUP)}>
                     Speak Up-Report Wrongdoings
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -184,7 +185,7 @@ function Home() {
       <ContainerOne />
       <ContainerTwo />
       <ContainerThree />
-      <ContainerFour />
+      {/* <ContainerFour /> */}
     </>
   );
 }

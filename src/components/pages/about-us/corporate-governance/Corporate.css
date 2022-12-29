@@ -181,5 +181,6 @@
     background: url('/images/logo.png') center/contain no-repeat;
     width: 200px;
     height: 250px;
+    cursor: pointer;
     border: 1px solid #260A87;
 }

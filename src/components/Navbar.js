@@ -82,11 +82,11 @@ function Navbar() {
       path: '/corporate',
       cName: 'dropdown-link'
     },
-    // {
-    //   title: 'HSSEQ',
-    //   path: '/hsseq',
-    //   cName: 'dropdown-link'
-    // },
+    {
+      title: 'HSSEQ',
+      path: '/hsseq',
+      cName: 'dropdown-link'
+    },
     {
       title: 'COVID 19 RESPONSES',
       path: '/covid',
@@ -148,7 +148,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                INVESTOR RELATIONS
+                FINANCIAL INFORMATION
               </Link>
             </li>
 

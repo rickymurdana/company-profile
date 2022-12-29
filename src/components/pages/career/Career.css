@@ -1,6 +1,6 @@
 .container-career-one-img {
     background: url('/images/img-career.jpg') center center/cover no-repeat;
-    height: 85vh;
+    height: fit-content;
     width: 100%;
 }
 
@@ -28,7 +28,7 @@
 
 .container-career-one-btn {
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: center;
     align-items: center;
     height: 1.5rem;

@@ -4,12 +4,12 @@ import './Investor.css';
 function ContainerOne() {
     return (
         <div className="container-inv-one">
-            <h1>INVESTOR <span style={{color: '#00C04C'}}>RELATIONS</span></h1>
+            <h1>FINANCIAL <span style={{color: '#00C04C'}}>INFORMATION</span></h1>
             <div className="container-inv-one-content">
-                <div className="img-inv1">
-                    <div className="text-title">FINANCIAL INFORMATION</div>
+                <div className="img-inv1" onClick={() => window.open('https://www.facebook.com/281449828608522/posts/5026405404112917/')}>
+                    <div className="text-title">MEDIA CENTRE</div>
                 </div>
-                <div className="img-inv2">
+                {/* <div className="img-inv2">
                     <div style={{ 
                         background: '#260A87',
                         width: '100%',
@@ -25,8 +25,8 @@ function ContainerOne() {
                             color: '#ffff'
                         }}>BURSA INFORMATION</div>
                     </div>
-                </div>
-                <div className="img-inv3">
+                </div> */}
+                <div className="img-inv3" onClick={(e) => window.location.href = 'mailto:finance@armadagema.co.id'}>
                     <div className="text-title">INFO REQUEST</div>
                 </div>
             </div>
